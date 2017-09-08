@@ -6,7 +6,7 @@ package com.s3u4.pattern.fatorymethod;
 public class FMClient {
 
     public static void main(String[] args) {
-        ExportFileApi api = new ExportTxt();
+        ExportFileApi api = new ExportDB();
         api.export();
     }
 

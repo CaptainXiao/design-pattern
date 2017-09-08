@@ -14,12 +14,12 @@ public abstract class ExportFileApi {
      * 详细的导出细节操作
      * @return
      */
-    public abstract boolean concreteExport(Object object);
+    protected abstract boolean concreteExport(Object object);
 
     /**
      * 获取导出数据
      * @return
      */
-    public abstract Object getExportData();
+    protected abstract Object getExportData();
 
 }
